@@ -14,8 +14,14 @@
 or
 > virtualenv venv
 
-4. install requirements using pip
+4. active virtual environment 
+> source venv\bin\activate
+or in windows
+> venv\Scripts\activate
+
+
+5. install requirements using pip
 > pip install -r requirements.txt
 
-5. run server 
+6. run server 
 > python manage.py runserver
